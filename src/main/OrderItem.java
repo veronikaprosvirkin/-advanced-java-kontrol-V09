@@ -16,4 +16,16 @@ public class OrderItem {
     public int getQuantity(){
         return quantity;
     }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        OrderItem item = (OrderItem) o;
+        return quantity == item.quantity &&
+                java.util.Objects.equals(name, item.name);
+    }
+    @Override
+    public int hashCode() {
+        return java.util.Objects.hash(name, quantity);
+    }
 }
