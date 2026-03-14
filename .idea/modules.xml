@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/advanced-java-kontrol-vXX.iml" filepath="$PROJECT_DIR$/advanced-java-kontrol-vXX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/university-management.iml" filepath="$PROJECT_DIR$/university-management.iml" />
     </modules>
   </component>
 </project>
